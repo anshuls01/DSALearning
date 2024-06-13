@@ -16,12 +16,18 @@ Console.WriteLine("Warm Up Section");
 // Console.WriteLine(pangram.solution("TheQuickBrownFoxJumpsOverTheLazyDog"));
 
 
-Console.WriteLine("palindrome: identify the given phrase is palindrome? after removing all non alphanumeric, phrase can contain upper and lower case letter");
-ValidPalindrome validPalindrome = new ValidPalindrome();
-Console.WriteLine(validPalindrome.solution("A man, a plan, a canal, Panama!"));
-Console.WriteLine(validPalindrome.solution("Was it a car or a cat I saw?"));
-Console.WriteLine(validPalindrome.solution("aBcbA"));
-Console.WriteLine(validPalindrome.solution("aBxa"));
+// Console.WriteLine("palindrome: identify the given phrase is palindrome? after removing all non alphanumeric, phrase can contain upper and lower case letter");
+// ValidPalindrome validPalindrome = new ValidPalindrome();
+// Console.WriteLine(validPalindrome.solution("A man, a plan, a canal, Panama!"));
+// Console.WriteLine(validPalindrome.solution("Was it a car or a cat I saw?"));
+// Console.WriteLine(validPalindrome.solution("aBcbA"));
+// Console.WriteLine(validPalindrome.solution("aBxa"));
+
+Console.WriteLine("Shortest word distance");
+ShortestWordDistance shortestWordDistance = new ShortestWordDistance();
+Console.WriteLine(shortestWordDistance.solution(new string[]{"the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog" }, "fox", "dog"));
+Console.WriteLine(shortestWordDistance.solution(new string[]{"a","b","d","b","a" }, "a", "b"));
+Console.WriteLine(shortestWordDistance.solution(new string[]{"a","b","c","d","e" }, "a", "e"));
 
 // Console.WriteLine("Reverse Vowels");
 // ReverseVowels reverseVowels = new ReverseVowels();
