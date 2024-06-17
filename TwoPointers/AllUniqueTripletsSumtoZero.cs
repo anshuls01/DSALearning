@@ -2,7 +2,7 @@ namespace TwoPointers;
 
 public class AllUniqueTripletsSumtoZero
 {
-    //problems in the belwo implementation not able to avoid duplicate
+    //problems in the below implementation not able to avoid duplicate
     //one easy way to avoid duplicate in array, sort the array and leave the duplicate items
     public List<int[]>? find(int[]? nums)
     {
