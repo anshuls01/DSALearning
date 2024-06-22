@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoPointers", "TwoPointers\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeIntervals", "MergeIntervals\MergeIntervals.csproj", "{D25A38E2-BE7F-4339-B110-42F119B2FFFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclicSort", "CyclicSort\CyclicSort.csproj", "{3EAD65F2-821F-4F26-B852-33BF2A1990ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{D25A38E2-BE7F-4339-B110-42F119B2FFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D25A38E2-BE7F-4339-B110-42F119B2FFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D25A38E2-BE7F-4339-B110-42F119B2FFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EAD65F2-821F-4F26-B852-33BF2A1990ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EAD65F2-821F-4F26-B852-33BF2A1990ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EAD65F2-821F-4F26-B852-33BF2A1990ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EAD65F2-821F-4F26-B852-33BF2A1990ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
