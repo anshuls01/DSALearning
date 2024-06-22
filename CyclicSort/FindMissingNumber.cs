@@ -57,4 +57,34 @@ public class FindMissingNumber
 
         return false;
     }
+
+    public int? Solution2(int[]? nums)
+    {
+        if (nums == null || nums.Length < 1)
+        {
+            return null;
+        }
+
+        int i = 0;
+        while (i < nums.Length)
+        {
+            int ci = nums[i];
+            if(nums[i]<nums.Length && nums[i]!=nums[ci])
+            {
+               (nums[ci], nums[i]) = (nums[i],nums[ci]);
+            }
+            else
+            {
+                i++;
+            }
+        }
+        for (int j = 0; j < nums.Length; j++)
+        {
+            if (nums[j] != j)
+            {
+                return j;
+            }
+        }
+        return null;
+    }
 }

@@ -8,3 +8,10 @@ Console.WriteLine("Cyclic Sort");
 
 FindMissingNumber findMissingNumber = new FindMissingNumber();
 Console.WriteLine( findMissingNumber.solution( new int[]{3,0,1})) ;
+Console.WriteLine( findMissingNumber.Solution2( new int[]{3,0,1})) ;
+
+// FindAllDiaspearedNumberInAArray findAllDiaspearedNumberInAArray = new FindAllDiaspearedNumberInAArray();
+// Console.WriteLine(string.Join(",", findAllDiaspearedNumberInAArray.Solution(new int[]{4,3,2,7,8,2,3,1})));
+
+// FindFirstPositiveMissingNumber firstPositiveMissingNumber = new FindFirstPositiveMissingNumber();
+// Console.WriteLine(firstPositiveMissingNumber.Solution(new int[]{3,4,-1,1})??-1);
