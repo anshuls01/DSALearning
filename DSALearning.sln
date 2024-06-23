@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeIntervals", "MergeInte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclicSort", "CyclicSort\CyclicSort.csproj", "{3EAD65F2-821F-4F26-B852-33BF2A1990ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidingWindow", "SlidingWindow\SlidingWindow.csproj", "{BD0CA2E9-BC13-4DF3-884C-A07575C4D878}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{3EAD65F2-821F-4F26-B852-33BF2A1990ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EAD65F2-821F-4F26-B852-33BF2A1990ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EAD65F2-821F-4F26-B852-33BF2A1990ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD0CA2E9-BC13-4DF3-884C-A07575C4D878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0CA2E9-BC13-4DF3-884C-A07575C4D878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0CA2E9-BC13-4DF3-884C-A07575C4D878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0CA2E9-BC13-4DF3-884C-A07575C4D878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
