@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclicSort", "CyclicSort\Cy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidingWindow", "SlidingWindow\SlidingWindow.csproj", "{BD0CA2E9-BC13-4DF3-884C-A07575C4D878}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{3A62AFDB-B4A0-4A77-ACBB-BF260AE9FE49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{BD0CA2E9-BC13-4DF3-884C-A07575C4D878}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD0CA2E9-BC13-4DF3-884C-A07575C4D878}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD0CA2E9-BC13-4DF3-884C-A07575C4D878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A62AFDB-B4A0-4A77-ACBB-BF260AE9FE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A62AFDB-B4A0-4A77-ACBB-BF260AE9FE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A62AFDB-B4A0-4A77-ACBB-BF260AE9FE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A62AFDB-B4A0-4A77-ACBB-BF260AE9FE49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
