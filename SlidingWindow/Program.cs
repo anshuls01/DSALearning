@@ -23,5 +23,8 @@ Console.WriteLine("Sliding Window");
 // VLongestSubStringWithUniqueKChar longestSubStringWithUniqueKChar = new VLongestSubStringWithUniqueKChar();
 // Console.WriteLine(longestSubStringWithUniqueKChar.Solution("aabacbebebe",3));
 
-VLongestSubStringWithNoRepeatingChar longestSubStringWithNoRepeatingChar = new VLongestSubStringWithNoRepeatingChar();
-Console.WriteLine(longestSubStringWithNoRepeatingChar.Solution("pwwkews"));
+// VLongestSubStringWithNoRepeatingChar longestSubStringWithNoRepeatingChar = new VLongestSubStringWithNoRepeatingChar();
+// Console.WriteLine(longestSubStringWithNoRepeatingChar.Solution("pwwkews"));
+
+VPickUniqueToys pickUniqueToys = new VPickUniqueToys();
+Console.WriteLine(pickUniqueToys.Solution(new char[]{'a','b','a','c','c','a','b'},2));
