@@ -13,8 +13,12 @@ Console.WriteLine("Sliding Window");
 // CountOccurenceOfAnagrams countOccurenceOfAnagrams = new CountOccurenceOfAnagrams();
 // Console.WriteLine(countOccurenceOfAnagrams.Solution("aabaabaa", "aaba"));
 
-MaximumOfAllSubArrayOfSizeK maximumOfAllSubArrayOfSizeK = new MaximumOfAllSubArrayOfSizeK();
-Console.WriteLine(string.Join(",", maximumOfAllSubArrayOfSizeK.Solution(new int[]{1,3,-1,-3,5,3,6,7},3)));
-Console.WriteLine(string.Join(",", maximumOfAllSubArrayOfSizeK.Solution2(new int[]{1,3,-1,-3,5,3,6,7},3)));
+// MaximumOfAllSubArrayOfSizeK maximumOfAllSubArrayOfSizeK = new MaximumOfAllSubArrayOfSizeK();
+// Console.WriteLine(string.Join(",", maximumOfAllSubArrayOfSizeK.Solution(new int[]{1,3,-1,-3,5,3,6,7},3)));
+// Console.WriteLine(string.Join(",", maximumOfAllSubArrayOfSizeK.Solution2(new int[]{1,3,-1,-3,5,3,6,7},3)));
 
+// VLargestSubArrayOfSumK largestSubArrayOfSumK = new VLargestSubArrayOfSumK();
+// Console.WriteLine(largestSubArrayOfSumK.Solution(new int[]{4,1,1,1,2,3,5},5));
 
+VLongestSubStringWithUniqueKChar longestSubStringWithUniqueKChar = new VLongestSubStringWithUniqueKChar();
+Console.WriteLine(longestSubStringWithUniqueKChar.Solution("aabacbebebe",3));
