@@ -20,5 +20,8 @@ Console.WriteLine("Sliding Window");
 // VLargestSubArrayOfSumK largestSubArrayOfSumK = new VLargestSubArrayOfSumK();
 // Console.WriteLine(largestSubArrayOfSumK.Solution(new int[]{4,1,1,1,2,3,5},5));
 
-VLongestSubStringWithUniqueKChar longestSubStringWithUniqueKChar = new VLongestSubStringWithUniqueKChar();
-Console.WriteLine(longestSubStringWithUniqueKChar.Solution("aabacbebebe",3));
+// VLongestSubStringWithUniqueKChar longestSubStringWithUniqueKChar = new VLongestSubStringWithUniqueKChar();
+// Console.WriteLine(longestSubStringWithUniqueKChar.Solution("aabacbebebe",3));
+
+VLongestSubStringWithNoRepeatingChar longestSubStringWithNoRepeatingChar = new VLongestSubStringWithNoRepeatingChar();
+Console.WriteLine(longestSubStringWithNoRepeatingChar.Solution("pwwkews"));
