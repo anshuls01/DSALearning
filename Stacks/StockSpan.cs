@@ -10,10 +10,10 @@ public class StockSpan
         }
 
         // the bewlo lopp should not be needed
-        if (nums.Length == 1)
-        {
-            return new int[] { 1 };
-        }
+        // if (nums.Length == 1)
+        // {
+        //     return new int[] { 1 };
+        // }
 
         int[] result = new int[nums.Length];
         int minValue = 1;

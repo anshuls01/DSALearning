@@ -47,19 +47,30 @@ Console.WriteLine("Two pointers");
 //     Console.WriteLine(string.Join(",", triplet));
 // }
 
-Console.WriteLine("Find minimum triplet sum closet to target");
-TripletSumCloseToTarget tripletSumCloseToTarget = new TripletSumCloseToTarget();
+// Console.WriteLine("Find minimum triplet sum closet to target");
+// TripletSumCloseToTarget tripletSumCloseToTarget = new TripletSumCloseToTarget();
 // Console.WriteLine(tripletSumCloseToTarget.find(new int[]{-1,0,2,3}, 3));
 // Console.WriteLine(tripletSumCloseToTarget.find(new int[]{-3,-1,1,2}, 1));
 // Console.WriteLine(tripletSumCloseToTarget.find(new int[]{1,0,1,1}, 100));
 // Console.WriteLine(tripletSumCloseToTarget.find(new int[]{0,0,1,1,2,6}, 5));
+//
+// Console.WriteLine(tripletSumCloseToTarget.find_attemptTwo(new int[]{-1,0,2,3}, 3));
+// Console.WriteLine(tripletSumCloseToTarget.find_attemptTwo(new int[]{-3,-1,1,2}, 1));    
+// Console.WriteLine(tripletSumCloseToTarget.find_attemptTwo(new int[]{1,0,1,1}, 100));
+// Console.WriteLine(tripletSumCloseToTarget.find_attemptTwo(new int[]{0,0,1,1,2,6}, 5));
+// TripletSumCloseToTarget1 tripletSumCloseToTarget1 = new TripletSumCloseToTarget1();
+// Console.WriteLine(tripletSumCloseToTarget1.solution(new int[]{-1,0,2,3}, 3));
+// Console.WriteLine(tripletSumCloseToTarget1.solution(new int[]{-3,-1,1,2}, 1));    
+// Console.WriteLine(tripletSumCloseToTarget1.solution(new int[]{1,0,1,1}, 100));
+// Console.WriteLine(tripletSumCloseToTarget1.solution(new int[]{0,0,1,1,2,6}, 5));
 
-Console.WriteLine(tripletSumCloseToTarget.find_attemptTwo(new int[]{-1,0,2,3}, 3));
-Console.WriteLine(tripletSumCloseToTarget.find_attemptTwo(new int[]{-3,-1,1,2}, 1));    
-Console.WriteLine(tripletSumCloseToTarget.find_attemptTwo(new int[]{1,0,1,1}, 100));
-Console.WriteLine(tripletSumCloseToTarget.find_attemptTwo(new int[]{0,0,1,1,2,6}, 5));
-TripletSumCloseToTarget1 tripletSumCloseToTarget1 = new TripletSumCloseToTarget1();
-Console.WriteLine(tripletSumCloseToTarget1.solution(new int[]{-1,0,2,3}, 3));
-Console.WriteLine(tripletSumCloseToTarget1.solution(new int[]{-3,-1,1,2}, 1));    
-Console.WriteLine(tripletSumCloseToTarget1.solution(new int[]{1,0,1,1}, 100));
-Console.WriteLine(tripletSumCloseToTarget1.solution(new int[]{0,0,1,1,2,6}, 5));
+Console.WriteLine("Find next palindrome");
+FindNextPalindrome findNextPalindrome = new FindNextPalindrome();
+Console.WriteLine(findNextPalindrome.solution(new int[]{2,3 ,5 ,4 ,5}));
+Console.WriteLine(findNextPalindrome.solution(new int[]{9,9,9}));
+Console.WriteLine(findNextPalindrome.solution(new int[]{9}));
+Console.WriteLine(findNextPalindrome.solution(new int[]{9,9}));
+Console.WriteLine(findNextPalindrome.solution(new int[]{1,2,3,4}));
+Console.WriteLine(findNextPalindrome.solution(new int[]{1,2,2,1}));
+Console.WriteLine(findNextPalindrome.solution(new int[]{1,2,1,2,1}));
+Console.WriteLine(findNextPalindrome.solution(new int[]{9,6,8,7}));
