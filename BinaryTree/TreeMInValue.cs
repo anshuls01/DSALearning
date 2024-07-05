@@ -1,8 +1,7 @@
 namespace BinaryTree;
 
-public class TreeSum
+public class TreeMInValue
 {
-    
     public class Node
     {
         public int value { get; set; }
@@ -17,12 +16,12 @@ public class TreeSum
     
     public Node BuildTreee()
     {
-        Node a = new Node(3);
+        Node a = new Node(5);
         Node b = new Node(11);
         Node c = new Node(4);
-        Node d = new Node(2);
-        Node e = new Node(4);
-        Node f = new Node(1);
+        Node d = new Node(15);
+        Node e = new Node(3);
+        Node f = new Node(12);
 
         a.left = b;
         a.right = c;
@@ -33,43 +32,46 @@ public class TreeSum
         return a;
     }
 
-    public int Sum_DFS_Recursive(Node root)
+    public int MinValue_DFS_Recursive(Node root)
     {
         if (root == null)
         {
-            return 0;//base case
+            return int.MaxValue;
         }
 
-        // hypothesis: Sum_DFS_Recursive(root.left) -> will give left sub tree sum
-        // Sum_DFS_Recursive(root.left) -> will give right sub tree sum
-        // root value + left sub tree sum + right sub tree sum = tree sum
-        return root.value + Sum_DFS_Recursive(root.left) + Sum_DFS_Recursive(root.right);
+        // hypothesis: Math.Min(
+        //                      MinValue_DFS_Recursive(root.left) => value from left sub tree
+        //                      MinValue_DFS_Recursive(root.right)=> value from right sun tree
+        //                     ) => min value from left and right sub tree
+        // Math.Min( root, min from left and right) => give min value of tree
+        return Math.Min(root.value, Math.Min(MinValue_DFS_Recursive(root.left), MinValue_DFS_Recursive(root.right)));
     }
 
-    public int Sum_BFS_Queue(Node root)
+    public int MinValue_BFS_Queue(Node root)
     {
         if (root == null)
         {
-            return 0;
+            return -1;
         }
 
+        int minValue = int.MaxValue;
         Queue<Node> queue = new Queue<Node>();
         queue.Enqueue(root);
-        int sum = 0;
-        while(queue.Count>0)
+        while (queue.Count > 0)
         {
             Node current = queue.Dequeue();
-            sum += current.value;
+            minValue = Math.Min(minValue, current.value);
             if (current.left != null)
             {
                 queue.Enqueue(current.left);
             }
+            
             if (current.right != null)
             {
                 queue.Enqueue(current.right);
             }
         }
 
-        return sum;
+        return minValue;
     }
 }
