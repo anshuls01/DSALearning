@@ -2,8 +2,104 @@
 
 using Graph;
 
+//T O:(e) or O(n^2)   S: O(n)
+// n=> no of nodes, e => no of edgea
 Console.WriteLine("Graph");
-TraverseNodes traverseNodes = new TraverseNodes();
-traverseNodes.print(traverseNodes.BuildAdjency(),'a');
-Console.WriteLine("---------------");
-traverseNodes.print_recursive(traverseNodes.BuildAdjency(),'a');
+// TraverseNodes traverseNodes = new TraverseNodes();
+// traverseNodes.print(traverseNodes.BuildAdjency(),'a');
+// Console.WriteLine("---------------");
+// traverseNodes.print_recursive(traverseNodes.BuildAdjency(),'a');
+
+// HasPath hasPath = new HasPath();
+// Dictionary<char, List<char>> adj = hasPath.BuildAdjancy(new List<char[]>
+// {
+//     new char[]{'f','g'},
+//     new char[]{'f','i'},
+//     new char[]{'g','h'},
+//     new char[]{'i','g'},
+//     new char[]{'i','k'},
+//     new char[]{'j','i'}
+//     
+// });
+// Console.WriteLine(hasPath.exist(adj,'f','k'));
+// Console.WriteLine(hasPath.exist(adj,'j','f'));
+
+// UndirectedPath undirectedPath = new UndirectedPath();
+// Console.WriteLine( undirectedPath.ValidatePathBetweenSourceAndDestination(undirectedPath.BuildAdjancey(new List<char[]>
+// {
+//     new char[]{'i','j'},
+//     new char[]{'k','i'},
+//     new char[]{'m','k'},
+//     new char[]{'k','l'},
+//     new char[]{'o','n'},
+//     }), 'j','m'));
+
+
+// ConnectedComponentCount coneConnectedComponentCount = new ConnectedComponentCount();
+// Console.WriteLine(coneConnectedComponentCount.Solve(coneConnectedComponentCount.BuildAdjancey(new List<int[]>
+// {
+//     new int[]{1,2},
+//     new int[]{4,6},
+//     new int[]{5,6},
+//     new int[]{6,8},
+//     new int[]{6,7},
+//     new int[]{3}
+// })));
+
+// LargestComponent largestComponent = new LargestComponent();
+// Console.WriteLine(largestComponent.Solve(largestComponent.BuildAdjancey(new List<int[]>
+// {
+//     new int[]{0,8},
+//     new int[]{0,5},
+//     new int[]{0,1},
+//     new int[]{1,0},
+//     new int[]{5,0},
+//     new int[]{5,8},
+//     new int[]{8,0},
+//     new int[]{8,5},
+//     new int[]{2,3},
+//     new int[]{3,4},
+//     new int[]{2,4},
+//     new int[]{3,2},
+//     new int[]{4,3},
+//     new int[]{4,2}
+//     
+//     // new int[]{1,2},
+//     // new int[]{4,6},
+//     // new int[]{5,6},
+//     // new int[]{6,8},
+//     // new int[]{6,7},
+//     // new int[]{3}
+// })));
+
+// ShortestPath shortestPath = new ShortestPath();
+// Console.WriteLine(shortestPath.Solve_BFS(shortestPath.BuildAdjancy(new List<char[]>()
+// {
+//     new char[]{'a','c'},
+//     new char[]{'a','b'},
+//     new char[]{'c','b'},
+//     new char[]{'c','d'},
+//     new char[]{'b','d'},
+//     new char[]{'e','d'},
+//     new char[]{'g','f'}
+// }), 'b','e'));
+// Console.WriteLine(shortestPath.Solve_BFS(shortestPath.BuildAdjancy(new List<char[]>()
+// {
+//     new char[]{'w','x'},
+//     new char[]{'x','y'},
+//     new char[]{'z','y'},
+//     new char[]{'z','v'},
+//     new char[]{'w','v'}
+// }), 'x','z'));
+
+
+IslandCount islandCount = new IslandCount();
+Console.WriteLine(islandCount.Solve(new char[,]
+{
+    {'W','L','W','W','L','W',},
+    {'L','L','W','W','L','W',},
+    {'W','L','W','W','W','W',},
+    {'W','W','W','L','L','W',},
+    {'W','L','W','L','L','W',},
+    {'W','W','W','W','W','W',},
+}));
