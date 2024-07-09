@@ -28,8 +28,19 @@ Console.WriteLine("Binary Tree");
 // Console.WriteLine(maxRootToLeafPathSum.MaxPathSum_DFS_Recursive(maxRootToLeafPathSum.BuildTreee()));
 
 Console.WriteLine("--------------- BFS ------------------");
-TreeLevelOrderTraversal treeLevelOrderTraversal = new TreeLevelOrderTraversal();
-treeLevelOrderTraversal.print(treeLevelOrderTraversal.BuildTree());
-Console.WriteLine("-----------");
-ReverseLevelOrderTraversal reverseLevelOrderTraversal = new ReverseLevelOrderTraversal();
-reverseLevelOrderTraversal.print(reverseLevelOrderTraversal.BuildTree());
+// TreeLevelOrderTraversal treeLevelOrderTraversal = new TreeLevelOrderTraversal();
+// treeLevelOrderTraversal.print(treeLevelOrderTraversal.BuildTree());
+
+// Console.WriteLine("-----------");
+
+// ReverseLevelOrderTraversal reverseLevelOrderTraversal = new ReverseLevelOrderTraversal();
+// reverseLevelOrderTraversal.print(reverseLevelOrderTraversal.BuildTree());
+
+// Console.WriteLine("-----------");
+
+// ZigzagTraversal zigzagTraversal = new ZigzagTraversal();
+// zigzagTraversal.print(zigzagTraversal.BuildTree());
+
+MaxNodeValueAtEachLevel maxNodeValueAtEachLevel = new MaxNodeValueAtEachLevel();
+maxNodeValueAtEachLevel.print(maxNodeValueAtEachLevel.BuildTree());
+

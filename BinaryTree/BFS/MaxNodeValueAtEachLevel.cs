@@ -1,57 +1,46 @@
 namespace BinaryTree.BFS;
 
-public class ZigzagTraversal
+public class MaxNodeValueAtEachLevel
 {
     public void print(TreeNode root)
     {
-        List<List<int>> result = Solution(root);
+        List<int> result = Solution(root);
 
-        foreach (List<int> nodes in result)
+        if (result.Count > 0)
         {
-            Console.WriteLine(string.Join(",", nodes));
+            Console.WriteLine(string.Join(",",result));
         }
     }
 
-    private List<List<int>> Solution(TreeNode root)
+    private List<int> Solution(TreeNode root)
     {
         if (root == null)
         {
-            return new List<List<int>>();
+            return new List<int>();
         }
 
-        List<List<int>> result = new List<List<int>>();
+        List<int> result = new List<int>();
         Queue<TreeNode> queue = new Queue<TreeNode>();
         queue.Enqueue(root);
-        bool leftToRight = true;
         while (queue.Count > 0)
         {
             int size = queue.Count;
-            LinkedList<int> currentLevel = new LinkedList<int>();
+            int maxValue = int.MinValue;
             for (int i = 0; i < size; i++)
             {
                 TreeNode current = queue.Dequeue();
-                if (leftToRight)
-                {
-                    currentLevel.AddLast(current.Val);
-                }
-                else
-                {
-                    currentLevel.AddFirst(current.Val);
-                }
-
+                maxValue = Math.Max(maxValue, current.Val);
                 if (current.Left != null)
                 {
                     queue.Enqueue(current.Left);
                 }
-
                 if (current.Right != null)
                 {
                     queue.Enqueue(current.Right);
                 }
             }
-
-            leftToRight = !leftToRight;
-            result.Add(new List<int>(currentLevel));
+            
+            result.Add(maxValue);
         }
 
         return result;
@@ -63,10 +52,9 @@ public class ZigzagTraversal
         root.Left = new TreeNode(7);
         root.Right = new TreeNode(1);
         root.Left.Left = new TreeNode(9);
+        root.Left.Right = new TreeNode(2);
         root.Right.Left = new TreeNode(10);
         root.Right.Right = new TreeNode(5);
-        root.Right.Left.Left = new TreeNode(20);
-        root.Right.Left.Right = new TreeNode(17);
 
         return root;
     }
