@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using BinaryTree;
+using BinaryTree.BFS;
 
 Console.WriteLine("Binary Tree");
 
@@ -23,5 +24,12 @@ Console.WriteLine("Binary Tree");
 
 
 // T: O(n) S: O(n)
-MaxRootToLeafPathSum maxRootToLeafPathSum = new MaxRootToLeafPathSum();
-Console.WriteLine(maxRootToLeafPathSum.MaxPathSum_DFS_Recursive(maxRootToLeafPathSum.BuildTreee()));
+// MaxRootToLeafPathSum maxRootToLeafPathSum = new MaxRootToLeafPathSum();
+// Console.WriteLine(maxRootToLeafPathSum.MaxPathSum_DFS_Recursive(maxRootToLeafPathSum.BuildTreee()));
+
+Console.WriteLine("--------------- BFS ------------------");
+TreeLevelOrderTraversal treeLevelOrderTraversal = new TreeLevelOrderTraversal();
+treeLevelOrderTraversal.print(treeLevelOrderTraversal.BuildTree());
+Console.WriteLine("-----------");
+ReverseLevelOrderTraversal reverseLevelOrderTraversal = new ReverseLevelOrderTraversal();
+reverseLevelOrderTraversal.print(reverseLevelOrderTraversal.BuildTree());
