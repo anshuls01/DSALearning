@@ -2,6 +2,7 @@
 
 using BinaryTree;
 using BinaryTree.BFS;
+using BinaryTree.DFS;
 
 Console.WriteLine("Binary Tree");
 
@@ -41,6 +42,15 @@ Console.WriteLine("--------------- BFS ------------------");
 // ZigzagTraversal zigzagTraversal = new ZigzagTraversal();
 // zigzagTraversal.print(zigzagTraversal.BuildTree());
 
-MaxNodeValueAtEachLevel maxNodeValueAtEachLevel = new MaxNodeValueAtEachLevel();
-maxNodeValueAtEachLevel.print(maxNodeValueAtEachLevel.BuildTree());
+// MaxNodeValueAtEachLevel maxNodeValueAtEachLevel = new MaxNodeValueAtEachLevel();
+// maxNodeValueAtEachLevel.print(maxNodeValueAtEachLevel.BuildTree());
 
+Console.WriteLine("-------------- DFS ------------------");
+// AllPathForASum allPathForASum = new AllPathForASum();
+// allPathForASum.Print(allPathForASum.BuildTree(), 23);
+
+AllPathSumForASum_BackTracking allPathSumForASumBackTracking = new AllPathSumForASum_BackTracking();
+allPathSumForASumBackTracking.Print(allPathSumForASumBackTracking.BuildTree(),23);
+
+AllRootToLeafPaths allRootToLeafPaths = new AllRootToLeafPaths();
+allRootToLeafPaths.Print(allRootToLeafPaths.BuildTree());

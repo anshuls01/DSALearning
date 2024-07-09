@@ -1,4 +1,4 @@
-namespace BinaryTree.BFS;
+namespace BinaryTree;
 
 public class TreeNode
 {
@@ -10,6 +10,4 @@ public class TreeNode
     {
         Val = x;
     }
-    
-    
 }
