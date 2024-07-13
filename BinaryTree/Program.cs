@@ -46,11 +46,29 @@ Console.WriteLine("--------------- BFS ------------------");
 // maxNodeValueAtEachLevel.print(maxNodeValueAtEachLevel.BuildTree());
 
 Console.WriteLine("-------------- DFS ------------------");
-// AllPathForASum allPathForASum = new AllPathForASum();
-// allPathForASum.Print(allPathForASum.BuildTree(), 23);
+//  AllPathForASum allPathForASum = new AllPathForASum();
+//  allPathForASum.Print(allPathForASum.BuildTree(), 23);
+// allPathForASum.Print_v1(allPathForASum.BuildTree(),23);
+//
+// AllPathSumForASum_BackTracking allPathSumForASumBackTracking = new AllPathSumForASum_BackTracking();
+// allPathSumForASumBackTracking.Print(allPathSumForASumBackTracking.BuildTree(),23);
 
-AllPathSumForASum_BackTracking allPathSumForASumBackTracking = new AllPathSumForASum_BackTracking();
-allPathSumForASumBackTracking.Print(allPathSumForASumBackTracking.BuildTree(),23);
+//
+// AllRootToLeafPaths allRootToLeafPaths = new AllRootToLeafPaths();
+// allRootToLeafPaths.Print(allRootToLeafPaths.BuildTree());
 
-AllRootToLeafPaths allRootToLeafPaths = new AllRootToLeafPaths();
-allRootToLeafPaths.Print(allRootToLeafPaths.BuildTree());
+// MaxSumPathRootToLeaf maxSumPathRootToLeaf = new MaxSumPathRootToLeaf();
+// maxSumPathRootToLeaf.Print(maxSumPathRootToLeaf.BuildTree());
+//
+// SumOfPathNumbers sumOfPathNumbers = new SumOfPathNumbers();
+// sumOfPathNumbers.Print(sumOfPathNumbers.BuildTree());
+// sumOfPathNumbers.Print_v1(sumOfPathNumbers.BuildTree());
+
+// CountPathsForASum countPathsForASum = new CountPathsForASum();
+// countPathsForASum.Count(countPathsForASum.BuildTree(),11);
+//
+// TreeDiameter treeDiameter = new TreeDiameter();
+// treeDiameter.findDiameter(treeDiameter.BuildTree());
+
+PathWithMaximumSum pathWithMaximumSum = new PathWithMaximumSum();
+pathWithMaximumSum.maxPathSumNodetoNode(pathWithMaximumSum.BuildTree());
