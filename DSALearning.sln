@@ -26,6 +26,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tries", "Tries\Tries.csproj", "{1EA85620-D106-4829-811F-28B5FBB041FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackTracking", "BackTracking\BackTracking.csproj", "{B66647FE-1510-4E27-B303-BB6FF9B3CACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlowFastPointer", "SlowFastPointer\SlowFastPointer.csproj", "{4BBAD670-7B44-4CAE-AF50-6F4E9681578D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +88,13 @@ Global
 		{1EA85620-D106-4829-811F-28B5FBB041FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EA85620-D106-4829-811F-28B5FBB041FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EA85620-D106-4829-811F-28B5FBB041FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B66647FE-1510-4E27-B303-BB6FF9B3CACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B66647FE-1510-4E27-B303-BB6FF9B3CACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B66647FE-1510-4E27-B303-BB6FF9B3CACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B66647FE-1510-4E27-B303-BB6FF9B3CACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BBAD670-7B44-4CAE-AF50-6F4E9681578D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBAD670-7B44-4CAE-AF50-6F4E9681578D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBAD670-7B44-4CAE-AF50-6F4E9681578D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBAD670-7B44-4CAE-AF50-6F4E9681578D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

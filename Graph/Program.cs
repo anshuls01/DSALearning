@@ -9,7 +9,6 @@ Console.WriteLine("Graph");
 // traverseNodes.print(traverseNodes.BuildAdjency(),'a');
 // Console.WriteLine("---------------");
 // traverseNodes.print_recursive(traverseNodes.BuildAdjency(),'a');
-
 // HasPath hasPath = new HasPath();
 // Dictionary<char, List<char>> adj = hasPath.BuildAdjancy(new List<char[]>
 // {
@@ -93,13 +92,38 @@ Console.WriteLine("Graph");
 // }), 'x','z'));
 
 
-IslandCount islandCount = new IslandCount();
-Console.WriteLine(islandCount.Solve(new char[,]
+// IslandCount islandCount = new IslandCount();
+// Console.WriteLine(islandCount.Solve(new char[,]
+// {
+//     {'W','L','W','W','L','W',},
+//     {'L','L','W','W','L','W',},
+//     {'W','L','W','W','W','W',},
+//     {'W','W','W','L','L','W',},
+//     {'W','L','W','L','L','W',},
+//     {'W','W','W','W','W','W',},
+// }));
+
+// MatrixIslandCount matrixIslandCount = new MatrixIslandCount();
+// matrixIslandCount.Solution(new int[][]
+// {
+//     new int[]{1,1,0},
+//     new int[]{1,1,0}, 
+//     new int[]{0,0,1}
+// });
+// FindDistinctShapeIsLand findDistinctShapeIsLand = new FindDistinctShapeIsLand();
+// findDistinctShapeIsLand.find(new int[][]
+// {
+//     new int[] { 1, 1, 0, 1, 1 },
+//     new int[] { 1, 1, 0, 1, 1 },
+//     new int[] { 0, 0, 0, 0, 0 },
+//     new int[] { 0, 1, 1, 0, 1 },
+//     new int[] { 0, 1, 1, 0, 1 }
+// });
+MatrixHasCycle matrixHasCycle = new MatrixHasCycle();
+matrixHasCycle.hasCycle(new char[][]
 {
-    {'W','L','W','W','L','W',},
-    {'L','L','W','W','L','W',},
-    {'W','L','W','W','W','W',},
-    {'W','W','W','L','L','W',},
-    {'W','L','W','L','L','W',},
-    {'W','W','W','W','W','W',},
-}));
+    new char[] { 'a', 'b', 'e', 'b' },
+    new char[] { 'b', 'b', 'b', 'b' }, 
+    new char[] { 'b', 'c', 'c', 'd' },
+    new char[] { 'c', 'c', 'd', 'd' }
+});
