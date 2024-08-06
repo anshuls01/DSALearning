@@ -30,6 +30,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackTracking", "BackTrackin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlowFastPointer", "SlowFastPointer\SlowFastPointer.csproj", "{4BBAD670-7B44-4CAE-AF50-6F4E9681578D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heap", "Heap\Heap.csproj", "{89D5585E-871C-4389-B936-066A6A47477A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,5 +98,9 @@ Global
 		{4BBAD670-7B44-4CAE-AF50-6F4E9681578D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BBAD670-7B44-4CAE-AF50-6F4E9681578D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BBAD670-7B44-4CAE-AF50-6F4E9681578D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89D5585E-871C-4389-B936-066A6A47477A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89D5585E-871C-4389-B936-066A6A47477A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89D5585E-871C-4389-B936-066A6A47477A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89D5585E-871C-4389-B936-066A6A47477A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
