@@ -24,24 +24,27 @@ Console.WriteLine("Heap implemented using the priority queue");
 // KClosestNumber kClosestNumber = new KClosestNumber();
 // Console.WriteLine(string.Join(",",kClosestNumber.find(new int[]{6,5,9,8,7}, 3,7)));
 
-TopKFrequentElements topKFrequentElements = new TopKFrequentElements();
-Console.WriteLine(string.Join(",",topKFrequentElements.find(new int[]{1,1,1,3,2,2,4}, 2)));
-Console.WriteLine(string.Join(",",topKFrequentElements.find(new int[]{1,1,1,3,3,3,3,2,2,2,4, 4}, 3)));
+// TopKFrequentElements topKFrequentElements = new TopKFrequentElements();
+// Console.WriteLine(string.Join(",",topKFrequentElements.find(new int[]{1,1,1,3,2,2,4}, 2)));
+// Console.WriteLine(string.Join(",",topKFrequentElements.find(new int[]{1,1,1,3,3,3,3,2,2,2,4, 4}, 3)));
+//
+// FrequencySort frequencySort = new FrequencySort();
+// Console.WriteLine(string.Join(",",frequencySort.get(new int[]{1,2,1,1,3,2,4})));
+//
+// KClosestPointToOrigin closestPointToOrigin = new KClosestPointToOrigin();
+// List<int[]> pairs = closestPointToOrigin.getClosetPair(new List<int[]>{
+//                                                                                     new int[]{1,3},
+//                                                                                     new int[]{-2,2},
+//                                                                                     new int[]{5,8},
+//                                                                                     new int[]{0,1},
+//                                                                                 },2);
+// if (pairs != null && pairs.Count > 0)
+// {
+//     foreach (int[] pair in pairs)
+//     {
+//         Console.WriteLine(string.Join(",",pair));
+//     }
+// }
 
-FrequencySort frequencySort = new FrequencySort();
-Console.WriteLine(string.Join(",",frequencySort.get(new int[]{1,2,1,1,3,2,4})));
-
-KClosestPointToOrigin closestPointToOrigin = new KClosestPointToOrigin();
-List<int[]> pairs = closestPointToOrigin.getClosetPair(new List<int[]>{
-                                                                                    new int[]{1,3},
-                                                                                    new int[]{-2,2},
-                                                                                    new int[]{5,8},
-                                                                                    new int[]{0,1},
-                                                                                },2);
-if (pairs != null && pairs.Count > 0)
-{
-    foreach (int[] pair in pairs)
-    {
-        Console.WriteLine(string.Join(",",pair));
-    }
-}
+RopeConnectMinCost ropeConnectMinCost = new RopeConnectMinCost();
+Console.WriteLine(ropeConnectMinCost.find(new int[]{1,2,3,4,5}));
