@@ -44,6 +44,33 @@ public class ReverseVowels
         
     }
 
+    public int remove(int[] nums) {
+        if(nums==null)
+        {
+            return 0;
+        }
+
+        if(nums.Length==1)
+        {
+            return 1;
+        }
+
+        int start = 0;
+        int pointer = 0;
+
+        while(start<nums.Length-2)
+        {
+            if(nums[start]!=nums[start+1])
+            {
+                nums[++pointer] = nums[start+1];
+            }
+            start++;
+        }
+
+        return pointer+1;
+
+    }
+    
     private void resverseChar(char[] chars, int start, int end)
     {
         (chars[end], chars[start]) = (chars[start], chars[end]);

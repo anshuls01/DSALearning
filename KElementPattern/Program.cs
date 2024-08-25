@@ -54,11 +54,17 @@ Console.WriteLine(
 // Console.WriteLine(sumOfElements.solution(new int[]{1,3,12,5,15,11}, 3,6));
 // Console.WriteLine(sumOfElements.solution(new int[]{3,5,8,7}, 1,4));
 
-ReArrangeString reArrangeString = new ReArrangeString();
-Console.WriteLine("Rearranged string: " + reArrangeString.Solution_DesignGuru("aappp"));
-Console.WriteLine("Rearranged string: " + reArrangeString.solution_pq("aappp"));
-Console.WriteLine("Rearranged string: " + reArrangeString.Solution_DesignGuru("Programming"));
-Console.WriteLine("Rearranged string: " + reArrangeString.solution_pq("Programming"));
-//Console.WriteLine("Rearranged string: " + reArrangeString.Solution_DesignGuru("aaap"));
-Console.WriteLine("Rearranged string: " + reArrangeString.solution_pq("aaap"));
+// ReArrangeString reArrangeString = new ReArrangeString();
+// Console.WriteLine("Rearranged string: " + reArrangeString.Solution_DesignGuru("aappp"));
+// Console.WriteLine("Rearranged string: " + reArrangeString.solution_pq("aappp"));
+// Console.WriteLine("Rearranged string: " + reArrangeString.Solution_DesignGuru("Programming"));
+// Console.WriteLine("Rearranged string: " + reArrangeString.solution_pq("Programming"));
+// //Console.WriteLine("Rearranged string: " + reArrangeString.Solution_DesignGuru("aaap"));
+// Console.WriteLine("Rearranged string: " + reArrangeString.solution_pq("aaap"));
+
+ReArrangeStringKDistanceApart reArrangeStringKDistanceApart = new ReArrangeStringKDistanceApart();
+Console.WriteLine(reArrangeStringKDistanceApart.find("mmpp",2));
+Console.WriteLine(reArrangeStringKDistanceApart.find("Programming",3));
+Console.WriteLine(reArrangeStringKDistanceApart.find("aab",2));
+Console.WriteLine(reArrangeStringKDistanceApart.find("aappa",3));
 

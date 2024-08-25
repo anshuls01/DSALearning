@@ -64,13 +64,30 @@ Console.WriteLine("Two pointers");
 // Console.WriteLine(tripletSumCloseToTarget1.solution(new int[]{1,0,1,1}, 100));
 // Console.WriteLine(tripletSumCloseToTarget1.solution(new int[]{0,0,1,1,2,6}, 5));
 
-Console.WriteLine("Find next palindrome");
-FindNextPalindrome findNextPalindrome = new FindNextPalindrome();
-Console.WriteLine(findNextPalindrome.solution(new int[]{2,3 ,5 ,4 ,5}));
-Console.WriteLine(findNextPalindrome.solution(new int[]{9,9,9}));
-Console.WriteLine(findNextPalindrome.solution(new int[]{9}));
-Console.WriteLine(findNextPalindrome.solution(new int[]{9,9}));
-Console.WriteLine(findNextPalindrome.solution(new int[]{1,2,3,4}));
-Console.WriteLine(findNextPalindrome.solution(new int[]{1,2,2,1}));
-Console.WriteLine(findNextPalindrome.solution(new int[]{1,2,1,2,1}));
-Console.WriteLine(findNextPalindrome.solution(new int[]{9,6,8,7}));
+// Console.WriteLine("Find next palindrome");
+// FindNextPalindrome findNextPalindrome = new FindNextPalindrome();
+// Console.WriteLine(findNextPalindrome.solution(new int[]{2,3 ,5 ,4 ,5}));
+// Console.WriteLine(findNextPalindrome.solution(new int[]{9,9,9}));
+// Console.WriteLine(findNextPalindrome.solution(new int[]{9}));
+// Console.WriteLine(findNextPalindrome.solution(new int[]{9,9}));
+// Console.WriteLine(findNextPalindrome.solution(new int[]{1,2,3,4}));
+// Console.WriteLine(findNextPalindrome.solution(new int[]{1,2,2,1}));
+// Console.WriteLine(findNextPalindrome.solution(new int[]{1,2,1,2,1}));
+// Console.WriteLine(findNextPalindrome.solution(new int[]{9,6,8,7}));
+
+TripletSumToZero tripletSumToZero = new TripletSumToZero();
+//List<int[]> result = tripletSumToZero.findTriplets(new int[]{-3,0,1,2,-1,1,-2});
+//List<int[]> result = tripletSumToZero.findTriplets(new int[]{-5,2,-1,-2,3});
+List<int[]> result = tripletSumToZero.findTriplets(new int[]{0,0,0});
+foreach (int[] triplet in result)
+{
+    Console.WriteLine(string.Join(",",triplet));
+}
+
+//List<List<int>> result1 = tripletSumToZero.findTriplets_Sorting(new int[]{-3,0,1,2,-1,1,-2});
+//List<List<int>> result1 = tripletSumToZero.findTriplets_Sorting(new int[]{-5,2,-1,-2,3});
+List<List<int>> result1 = tripletSumToZero.findTriplets_Sorting(new int[]{0,0,0});
+foreach (List<int> triplet in result1)
+{
+    Console.WriteLine(string.Join(",",triplet));
+}
