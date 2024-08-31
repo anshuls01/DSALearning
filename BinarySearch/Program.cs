@@ -28,12 +28,15 @@ Console.WriteLine("Binary Search");
 // Console.WriteLine(findElementInNearlySortedArray.find(new int[]{5, 10, 30, 20, 40},10));
 // Console.WriteLine(findElementInNearlySortedArray.find(new int[]{5, 10, 30, 20, 40},20));
 // Console.WriteLine(findElementInNearlySortedArray.find(new int[]{5, 10, 30, 20, 40},30));
+//
+// FirntFirstOneInBinarySortedInfiniteArray firstOneInBinarySortedInfiniteArray = new FirntFirstOneInBinarySortedInfiniteArray();
+// Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1}));
+// Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }));
+// Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1 }));
+// Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1}));
+// Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}));
+// Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}));
+// Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}));
 
-FirntFirstOneInBinarySortedInfiniteArray firstOneInBinarySortedInfiniteArray = new FirntFirstOneInBinarySortedInfiniteArray();
-Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1}));
-Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }));
-Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1 }));
-Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1}));
-Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}));
-Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}));
-Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}));
+FindNumberRange numberRange = new FindNumberRange();
+numberRange.findRange(new int[]{1,1,1},1);

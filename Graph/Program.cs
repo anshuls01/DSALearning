@@ -119,11 +119,29 @@ Console.WriteLine("Graph");
 //     new int[] { 0, 1, 1, 0, 1 },
 //     new int[] { 0, 1, 1, 0, 1 }
 // });
-MatrixHasCycle matrixHasCycle = new MatrixHasCycle();
-matrixHasCycle.hasCycle(new char[][]
+//
+//
+// MatrixHasCycle matrixHasCycle = new MatrixHasCycle();
+// matrixHasCycle.hasCycle(new char[][]
+// {
+//     new char[] { 'a', 'b', 'e', 'b' },
+//     new char[] { 'b', 'b', 'b', 'b' }, 
+//     new char[] { 'b', 'c', 'c', 'd' },
+//     new char[] { 'c', 'c', 'd', 'd' }
+// });
+
+
+MutualFriends mutualFriends = new MutualFriends();
+Console.WriteLine(string.Join(",",mutualFriends.findMutualFriends( mutualFriends.CreateAdjencyList(
+    new List<char[]>
 {
-    new char[] { 'a', 'b', 'e', 'b' },
-    new char[] { 'b', 'b', 'b', 'b' }, 
-    new char[] { 'b', 'c', 'c', 'd' },
-    new char[] { 'c', 'c', 'd', 'd' }
-});
+    new char[]{'a','b'},
+    new char[]{'a','c'},
+    new char[]{'b','d'},
+    new char[]{'b','g'},
+    new char[]{'d','p'},
+    new char[]{'d','q'},
+    new char[]{'l','x'},
+    new char[]{'l','y'}
+}), 'a')));
+
