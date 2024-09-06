@@ -40,6 +40,13 @@ Console.WriteLine("Sliding Window");
 
 // LongestSubStringWithNoRepeatingChar longestSubStringWithNoRepeatingChar = new LongestSubStringWithNoRepeatingChar();
 // Console.WriteLine(longestSubStringWithNoRepeatingChar.find("pwwkew"));
-MinimumWindowSubsrting minimumWindowSubsrting = new MinimumWindowSubsrting();
-Console.WriteLine(minimumWindowSubsrting.find("atxoyc", "toc"));
-Console.WriteLine(minimumWindowSubsrting.find("atxtoyc", "toc"));
+// MinimumWindowSubsrting minimumWindowSubsrting = new MinimumWindowSubsrting();
+// Console.WriteLine(minimumWindowSubsrting.find("atxoyc", "toc"));
+// Console.WriteLine(minimumWindowSubsrting.find("atxtoyc", "toc"));
+
+// LongestSubstringAfterReplacingKChar longestSubstringAfterReplacingKChar = new LongestSubstringAfterReplacingKChar();
+// Console.WriteLine(longestSubstringAfterReplacingKChar.findLength("aabccbb",2));
+
+findPermutation findPermutation = new findPermutation();
+Console.WriteLine(findPermutation.find("contribute","tribe"));
+Console.WriteLine(findPermutation.find("facedebacle","abcdef"));
