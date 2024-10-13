@@ -25,8 +25,8 @@ Console.WriteLine("Binary Tree");
 
 
 // T: O(n) S: O(n)
-// MaxRootToLeafPathSum maxRootToLeafPathSum = new MaxRootToLeafPathSum();
-// Console.WriteLine(maxRootToLeafPathSum.MaxPathSum_DFS_Recursive(maxRootToLeafPathSum.BuildTreee()));
+MaxRootToLeafPathSum maxRootToLeafPathSum = new MaxRootToLeafPathSum();
+Console.WriteLine(maxRootToLeafPathSum.MaxPathSum_DFS_Recursive(maxRootToLeafPathSum.BuildTreee()));
 
 Console.WriteLine("--------------- BFS ------------------");
 // TreeLevelOrderTraversal treeLevelOrderTraversal = new TreeLevelOrderTraversal();
@@ -70,5 +70,5 @@ Console.WriteLine("-------------- DFS ------------------");
 // TreeDiameter treeDiameter = new TreeDiameter();
 // treeDiameter.findDiameter(treeDiameter.BuildTree());
 
-PathWithMaximumSum pathWithMaximumSum = new PathWithMaximumSum();
-pathWithMaximumSum.maxPathSumNodetoNode(pathWithMaximumSum.BuildTree());
+//PathWithMaximumSum pathWithMaximumSum = new PathWithMaximumSum();
+//pathWithMaximumSum.maxPathSumNodetoNode(pathWithMaximumSum.BuildTree());
