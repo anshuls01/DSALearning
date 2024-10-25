@@ -1,44 +1,49 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSALearning", "DSALearning\DSALearning.csproj", "{5E5C805C-C417-4E8B-BC4F-CD914366D735}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DSALearning", "DSALearning\DSALearning.csproj", "{5E5C805C-C417-4E8B-BC4F-CD914366D735}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarmUp", "WarmUp\WarmUp.csproj", "{53A1C361-92D1-4705-A7BF-272DB5B72D98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WarmUp", "WarmUp\WarmUp.csproj", "{53A1C361-92D1-4705-A7BF-272DB5B72D98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoPointers", "TwoPointers\TwoPointers.csproj", "{184C0591-B839-442C-A05C-E6527FCF0671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TwoPointers", "TwoPointers\TwoPointers.csproj", "{184C0591-B839-442C-A05C-E6527FCF0671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeIntervals", "MergeIntervals\MergeIntervals.csproj", "{D25A38E2-BE7F-4339-B110-42F119B2FFFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeIntervals", "MergeIntervals\MergeIntervals.csproj", "{D25A38E2-BE7F-4339-B110-42F119B2FFFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclicSort", "CyclicSort\CyclicSort.csproj", "{3EAD65F2-821F-4F26-B852-33BF2A1990ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CyclicSort", "CyclicSort\CyclicSort.csproj", "{3EAD65F2-821F-4F26-B852-33BF2A1990ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidingWindow", "SlidingWindow\SlidingWindow.csproj", "{BD0CA2E9-BC13-4DF3-884C-A07575C4D878}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlidingWindow", "SlidingWindow\SlidingWindow.csproj", "{BD0CA2E9-BC13-4DF3-884C-A07575C4D878}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{3A62AFDB-B4A0-4A77-ACBB-BF260AE9FE49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recursion", "Recursion\Recursion.csproj", "{3A62AFDB-B4A0-4A77-ACBB-BF260AE9FE49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{DBE95483-9DD9-44F8-B296-227C41723F22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearch\BinarySearch.csproj", "{DBE95483-9DD9-44F8-B296-227C41723F22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stacks", "Stacks\Stacks.csproj", "{D7CB1B58-7C26-4087-B8C4-DD836CB6B457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stacks", "Stacks\Stacks.csproj", "{D7CB1B58-7C26-4087-B8C4-DD836CB6B457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{401FB507-22D1-4DAE-9808-240A8AC9B1CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{401FB507-22D1-4DAE-9808-240A8AC9B1CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedLists", "LinkedLists\LinkedLists.csproj", "{34818C72-F001-4961-93AF-3880F45F8A6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedLists", "LinkedLists\LinkedLists.csproj", "{34818C72-F001-4961-93AF-3880F45F8A6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{6C57C8A2-3F93-4660-9BB6-4FC41ADD73B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph", "Graph\Graph.csproj", "{6C57C8A2-3F93-4660-9BB6-4FC41ADD73B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tries", "Tries\Tries.csproj", "{1EA85620-D106-4829-811F-28B5FBB041FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tries", "Tries\Tries.csproj", "{1EA85620-D106-4829-811F-28B5FBB041FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackTracking", "BackTracking\BackTracking.csproj", "{B66647FE-1510-4E27-B303-BB6FF9B3CACB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackTracking", "BackTracking\BackTracking.csproj", "{B66647FE-1510-4E27-B303-BB6FF9B3CACB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlowFastPointer", "SlowFastPointer\SlowFastPointer.csproj", "{4BBAD670-7B44-4CAE-AF50-6F4E9681578D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlowFastPointer", "SlowFastPointer\SlowFastPointer.csproj", "{4BBAD670-7B44-4CAE-AF50-6F4E9681578D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Heap", "Heap\Heap.csproj", "{89D5585E-871C-4389-B936-066A6A47477A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Heap", "Heap\Heap.csproj", "{89D5585E-871C-4389-B936-066A6A47477A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode75", "LeetCode75\LeetCode75.csproj", "{54F8454E-D85A-4668-B25E-FEC430DD15DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LeetCode75", "LeetCode75\LeetCode75.csproj", "{54F8454E-D85A-4668-B25E-FEC430DD15DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KElementPattern", "KElementPattern\KElementPattern.csproj", "{6AF94604-C984-4767-9955-5F7F0729513A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KElementPattern", "KElementPattern\KElementPattern.csproj", "{6AF94604-C984-4767-9955-5F7F0729513A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashMap", "HashMap\HashMap.csproj", "{72406D89-76FB-4677-940E-2CE2ED991A61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashMap", "HashMap\HashMap.csproj", "{72406D89-76FB-4677-940E-2CE2ED991A61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google50", "Google50\Google50.csproj", "{3B1D3F03-4A87-43C2-9CC6-4629110908DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Google50", "Google50\Google50.csproj", "{3B1D3F03-4A87-43C2-9CC6-4629110908DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP", "DP\DP.csproj", "{40510E25-E572-4B6A-A6D4-3D01FDABCD29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -126,5 +131,15 @@ Global
 		{3B1D3F03-4A87-43C2-9CC6-4629110908DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B1D3F03-4A87-43C2-9CC6-4629110908DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B1D3F03-4A87-43C2-9CC6-4629110908DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40510E25-E572-4B6A-A6D4-3D01FDABCD29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40510E25-E572-4B6A-A6D4-3D01FDABCD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40510E25-E572-4B6A-A6D4-3D01FDABCD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40510E25-E572-4B6A-A6D4-3D01FDABCD29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F179AF73-0674-4B68-82DE-ADA8451DA921}
 	EndGlobalSection
 EndGlobal

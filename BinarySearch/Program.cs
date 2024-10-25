@@ -18,11 +18,11 @@ Console.WriteLine("Binary Search");
 // Console.WriteLine(noOfTimeArrayRotated.findMinIndex(new int[]{5,9,14,16,18,2,3}));
 // Console.WriteLine(noOfTimeArrayRotated.findMinIndex(new int[]{5,9,14,16,2,2,3}));
 
-// findElementInSortedRotatedArray findMinElementInRotatedSortedArray = new findElementInSortedRotatedArray();
-// Console.WriteLine(findMinElementInRotatedSortedArray.find(new int[] { 2, 3, 5, 9, 14, 16, 18 }, 5));
-// Console.WriteLine(findMinElementInRotatedSortedArray.find(new int[] { 5, 9, 14, 16, 18, 2, 3 }, 5));
-// Console.WriteLine(findMinElementInRotatedSortedArray.find(new int[] { 3, 5, 9, 14, 16, 19, 2 }, 5));
-// Console.WriteLine(findMinElementInRotatedSortedArray.find(new int[] { 11, 12, 15, 18, 2, 5, 6, 8 }, 15));
+findElementInSortedRotatedArray findMinElementInRotatedSortedArray = new findElementInSortedRotatedArray();
+Console.WriteLine(findMinElementInRotatedSortedArray.find(new int[] { 2, 3, 5, 9, 14, 16, 18 }, 5));
+Console.WriteLine(findMinElementInRotatedSortedArray.find(new int[] { 5, 9, 14, 16, 18, 2, 3 }, 5));
+Console.WriteLine(findMinElementInRotatedSortedArray.find(new int[] { 3, 5, 9, 14, 16, 19, 2 }, 5));
+Console.WriteLine(findMinElementInRotatedSortedArray.find(new int[] { 11, 12, 15, 18, 2, 5, 6, 8 }, 15));
 
 // FindElementInNearlySortedArray findElementInNearlySortedArray = new FindElementInNearlySortedArray();
 // Console.WriteLine(findElementInNearlySortedArray.find(new int[]{5, 10, 30, 20, 40},10));
@@ -38,5 +38,11 @@ Console.WriteLine("Binary Search");
 // Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}));
 // Console.WriteLine(firstOneInBinarySortedInfiniteArray.find(new int[] {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1}));
 
-FindNumberRange numberRange = new FindNumberRange();
-numberRange.findRange(new int[]{1,1,1},1);
+//FindNumberRange numberRange = new FindNumberRange();
+//numberRange.findRange(new int[]{1,1,1},1);
+
+FindElementInRotatedSortedArray findElementInRotatedSortedArray = new FindElementInRotatedSortedArray();
+Console.WriteLine(findElementInRotatedSortedArray.find(new int[] { 2, 3, 5, 9, 14, 16, 18 }, 5));
+Console.WriteLine(findElementInRotatedSortedArray.find(new int[] { 5, 9, 14, 16, 18, 2, 3 }, 5));
+Console.WriteLine(findElementInRotatedSortedArray.find(new int[] { 3, 5, 9, 14, 16, 19, 2 }, 5));
+Console.WriteLine(findElementInRotatedSortedArray.find(new int[] { 11, 12, 15, 18, 2, 5, 6, 8 }, 15));

@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using Graph;
+using Graph.revision;
 
 //T O:(e) or O(n^2)   S: O(n)
 // n=> no of nodes, e => no of edgea
@@ -131,17 +132,72 @@ Console.WriteLine("Graph");
 // });
 
 
-MutualFriends mutualFriends = new MutualFriends();
-Console.WriteLine(string.Join(",",mutualFriends.findMutualFriends( mutualFriends.CreateAdjencyList(
-    new List<char[]>
-{
-    new char[]{'a','b'},
-    new char[]{'a','c'},
-    new char[]{'b','d'},
-    new char[]{'b','g'},
-    new char[]{'d','p'},
-    new char[]{'d','q'},
-    new char[]{'l','x'},
-    new char[]{'l','y'}
-}), 'a')));
+//MutualFriends mutualFriends = new MutualFriends();
+//Console.WriteLine(string.Join(",",mutualFriends.findMutualFriends( mutualFriends.CreateAdjencyList(
+//    new List<char[]>
+//{
+//    new char[]{'a','b'},
+//    new char[]{'a','c'},
+//    new char[]{'b','d'},
+//    new char[]{'b','g'},
+//    new char[]{'d','p'},
+//    new char[]{'d','q'},
+//    new char[]{'l','x'},
+//    new char[]{'l','y'}
+//}), 'a')));
 
+// revision start
+CreateAdjency createAdjency = new CreateAdjency();
+//Dictionary<char,List<char>> adj =  createAdjency.CreateGraphAdjencyList(new char[][] { new char[] {'f','g' },
+//                                                    new char[] {'f','i' },
+//                                                    new char[] {'i','k' },
+//                                                    new char[] {'i','g' },
+//                                                    new char[] {'g','h' },
+//                                                    new char[] {'j','i' }
+//                                                    }, true);
+
+
+
+//n -> no of nodes 
+//e -> no of edges or e = n^2 (worst case no of edge will be n^2, where n is no of nodes)
+//T: O(e) or O(n^2) each edge has to be travel between the nodes
+//S: O(n) recursive calls - max depth of recursive calls
+//Graph.revision.HasPath hasPath = new Graph.revision.HasPath();
+//Console.WriteLine(hasPath.find(adj, 'f', 'g'));
+//Console.WriteLine(hasPath.find(adj, 'f', 'k'));
+//Console.WriteLine(hasPath.find(adj, 'j', 'f'));
+
+//Dictionary<char, List<char>> adj = createAdjency.CreateGraphAdjencyList(new char[][] {
+//                                                    new char[] {'i','j' },
+//                                                    new char[] {'k','i' },
+//                                                    new char[] {'m','k' },
+//                                                    new char[] {'k','l' },
+//                                                    new char[] {'o','n' }
+//                                                    }, false);
+
+//Graph.revision.HasPath hasPath = new Graph.revision.HasPath();
+//Console.WriteLine(hasPath.pathExistInAUndirectedGraph(adj, 'j', 'm'));
+
+//Dictionary<int, List<int>> adj = createAdjency.CreateGraphAdjencyList(new int[][] {
+//                                                    new int[] { 1,2},
+//                                                    new int[] {4,6 },
+//                                                    new int[] { 5,6},
+//                                                    new int[] { 8,6},
+//                                                    new int[] { 7,6},
+//                                                    new int[] { 3,3}
+//                                                    }, false);
+//Graph.revision.ConnectedComponent connectedComponent = new Graph.revision.ConnectedComponent();
+//Console.WriteLine(connectedComponent.find(adj));
+
+Dictionary<int, List<int>> adj = createAdjency.CreateGraphAdjencyList(new int[][] {
+                                                    new int[] { 0,8},
+                                                    new int[] {0,1 },
+                                                    new int[] { 0,5},
+                                                    new int[] { 5,8},
+                                                    new int[] { 2,3},
+                                                    new int[] { 2,4},
+                                                    new int[] { 3,4}
+                                                    }, false);
+
+Graph.revision.LargestComponentSize componentSize = new Graph.revision.LargestComponentSize();
+Console.WriteLine(componentSize.find(adj));
