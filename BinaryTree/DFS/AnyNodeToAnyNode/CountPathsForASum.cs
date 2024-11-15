@@ -12,6 +12,7 @@ public class CountPathsForASum
         int result = find(root, target, new List<int>());
         int result2 = CountPathsPrefixSum(root, target, new Dictionary<int, int>(), 0);
         Console.WriteLine(result);
+        Console.WriteLine(result2);
     }
 
     private int find(TreeNode root, int target, List<int> currentPath)

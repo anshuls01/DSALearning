@@ -52,10 +52,15 @@ Console.WriteLine("Google 50!");
 //Console.WriteLine(twoKeysKeyboard.findValue(5));
 //Console.WriteLine(twoKeysKeyboard.findValue(9));
 
-//ArithmeticSlices arithmeticSlices = new ArithmeticSlices();
-//Console.WriteLine(arithmeticSlices.findCount(new int[] { 1, 3, 5, 7, 9, 10, 11 }));
-//Console.WriteLine(arithmeticSlices.findCount(new int[] { 7, 7, 7, 7 }));
-//Console.WriteLine(arithmeticSlices.findCount(new int[] { 1, 2, 4, 6, 8 }));
+ArithmeticSlices arithmeticSlices = new ArithmeticSlices();
+AirthmeticSlice1 airthmeticSlice1 = new AirthmeticSlice1();
+Console.WriteLine(arithmeticSlices.findCount(new int[] { 1, 3, 5, 7, 9, 10, 11 }));
+Console.WriteLine(airthmeticSlice1.find(new int[] { 1, 3, 5, 7, 9, 10, 11 }));
+Console.WriteLine(arithmeticSlices.findCount(new int[] { 7, 7, 7, 7 }));
+Console.WriteLine(airthmeticSlice1.find(new int[] { 7, 7, 7, 7 }));
+Console.WriteLine(arithmeticSlices.findCount(new int[] { 1, 2, 4, 6, 8 }));
+Console.WriteLine(airthmeticSlice1.find(new int[] { 1, 2, 4, 6, 8 }));
+
 //UniqueLength3PalindromicSubSequences uniqueLength3PalindromicSubSequences = new UniqueLength3PalindromicSubSequences();
 //Console.WriteLine(uniqueLength3PalindromicSubSequences.find("abcba"));
 //Console.WriteLine(uniqueLength3PalindromicSubSequences.find("aba"));
@@ -134,12 +139,27 @@ Console.WriteLine("Google 50!");
 //    Console.WriteLine(string.Join(",", matrix[i]));
 //}
 
-CombinationSum combinationSum = new CombinationSum();
-List<List<int>> result = combinationSum.find(new int[] { 2,3,6,7},7);
-if (result != null)
-{
-    foreach (var item in result)
-    { 
-        Console.WriteLine(string.Join(",", item));
-    }
-}
+//CombinationSum combinationSum = new CombinationSum();
+//List<List<int>> result = combinationSum.find(new int[] { 2,3,6,7},7);
+//if (result != null)
+//{
+//    foreach (var item in result)
+//    { 
+//        Console.WriteLine(string.Join(",", item));
+//    }
+//}
+
+//ContainerWithMostWater containerWithMostWater =  new ContainerWithMostWater();
+//Console.WriteLine(containerWithMostWater.find(new int[] { 1, 3, 2, 4, 5 }));
+//Console.WriteLine(containerWithMostWater.find(new int[] { 5, 2, 4, 2, 6, 3 }));
+//Console.WriteLine(containerWithMostWater.find(new int[] { 2, 3, 4, 5, 18, 17, 6 }));
+
+//MatrixNearestZero matrixNearestZero = new MatrixNearestZero();
+//int[][] matrix = matrixNearestZero.find(new int[][] { new int[] { 1, 0, 1, 1 }, new int[] { 1, 1, 1, 1 }, new int[] { 1, 1, 1, 0 } });
+//int[][] matrix = matrixNearestZero.find(new int[][] { new int[] {  0, 1, 1 }, new int[] { 1, 1, 0 }, new int[] { 1, 0, 1 } });
+//int[][] matrix = matrixNearestZero.find(new int[][] { new int[] {1, 1,0 }, new int[] { 0,1, 1 }, new int[] { 1, 1, 1 } });
+//int[][] matrix = matrixNearestZero.find(new int[][] { new int[] { 1, 0,1 }, new int[] { 1, 1,1}});
+//foreach (int[] row in matrix)
+//{ 
+//    Console.WriteLine(string.Join(",",row));
+//}

@@ -10,6 +10,52 @@ public class ZigzagTraversal
         {
             Console.WriteLine(string.Join(",", nodes));
         }
+
+        result = traversal(root);
+        foreach (List<int> nodes in result)
+        {
+            Console.WriteLine(string.Join(",", nodes));
+        }
+    }
+    private List<List<int>> traversal(TreeNode root)
+    {
+        List<List<int>> result = new List<List<int>>();
+        bool direction = false;
+        if (root == null)
+        {
+            return result;
+        }
+
+        Queue<TreeNode> queue = new Queue<TreeNode>();
+        queue.Enqueue(root);
+        while (queue.Count > 0)
+        {
+            int size = queue.Count;
+            List<int> nodes = new List<int>();
+            for (int i = 0; i < size; i++)
+            {
+                TreeNode current = queue.Dequeue();
+                if (!direction)
+                {
+                    nodes.Add(current.Val);
+                }
+                else
+                {
+                    nodes.Insert(0, current.Val);
+                }
+                if (current.Left != null)
+                {
+                    queue.Enqueue(current.Left);
+                }
+                if (current.Right != null)
+                {
+                    queue.Enqueue(current.Right);
+                }
+            }
+            result.Add(nodes);
+            direction = !direction;
+        }
+        return result;
     }
 
     private List<List<int>> Solution(TreeNode root)

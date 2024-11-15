@@ -40,14 +40,14 @@ public class PathWithMaximumSum
 
     public TreeNode BuildTree()
     {
-        TreeNode root = new TreeNode(-1);
-        root.Left = new TreeNode(-3);
-        // TreeNode root = new TreeNode(1);
-        // root.Left = new TreeNode(2);
-        // root.Right = new TreeNode(3);
-        // root.Left.Left = new TreeNode(4);
-        // root.Right.Left = new TreeNode(5);
-        // root.Right.Right = new TreeNode(6);
+        //TreeNode root = new TreeNode(-1);
+        //root.Left = new TreeNode(-3);
+        TreeNode root = new TreeNode(1);
+        root.Left = new TreeNode(2);
+        root.Right = new TreeNode(3);
+        root.Left.Left = new TreeNode(4);
+        root.Right.Left = new TreeNode(5);
+        root.Right.Right = new TreeNode(6);
 
         return root;
     }

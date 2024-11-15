@@ -2,6 +2,8 @@
 
 using Graph;
 using Graph.revision;
+using Graph.TopologicalSort;
+using Graph.UnionFind;
 
 //T O:(e) or O(n^2)   S: O(n)
 // n=> no of nodes, e => no of edgea
@@ -189,15 +191,22 @@ CreateAdjency createAdjency = new CreateAdjency();
 //Graph.revision.ConnectedComponent connectedComponent = new Graph.revision.ConnectedComponent();
 //Console.WriteLine(connectedComponent.find(adj));
 
-Dictionary<int, List<int>> adj = createAdjency.CreateGraphAdjencyList(new int[][] {
-                                                    new int[] { 0,8},
-                                                    new int[] {0,1 },
-                                                    new int[] { 0,5},
-                                                    new int[] { 5,8},
-                                                    new int[] { 2,3},
-                                                    new int[] { 2,4},
-                                                    new int[] { 3,4}
-                                                    }, false);
+//Dictionary<int, List<int>> adj = createAdjency.CreateGraphAdjencyList(new int[][] {
+//                                                    new int[] { 0,8},
+//                                                    new int[] {0,1 },
+//                                                    new int[] { 0,5},
+//                                                    new int[] { 5,8},
+//                                                    new int[] { 2,3},
+//                                                    new int[] { 2,4},
+//                                                    new int[] { 3,4}
+//                                                    }, false);
 
-Graph.revision.LargestComponentSize componentSize = new Graph.revision.LargestComponentSize();
-Console.WriteLine(componentSize.find(adj));
+//Graph.revision.LargestComponentSize componentSize = new Graph.revision.LargestComponentSize();
+//Console.WriteLine(componentSize.find(adj));
+
+//RedundentConnection redundentConnection = new RedundentConnection();
+//int[] result= redundentConnection.findEdge(new int[][] { new int[] { 1, 2 }, new int[] { 1, 3 }, new int[] { 3, 4 }, new int[] { 1, 4 }, new int[] { 1, 5 } });
+//Console.WriteLine(string.Join(", ", result));
+
+PrintTopologyOrder printTopologyOrder = new PrintTopologyOrder();
+printTopologyOrder.print(printTopologyOrder.createAdjency(new int[][] { new int[] { 6, 4 }, new int[] { 6, 2 }, new int[] { 5, 3 }, new int[] { 5, 4 }, new int[] { 3, 0 }, new int[] { 3, 1 }, new int[] { 3, 2 }, new int[] { 4, 1 } }));

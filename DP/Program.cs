@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DP;
+using DP.Knapsack0_1;
+using System.Linq.Expressions;
 using System.Net.Http.Headers;
 
 Console.WriteLine("Dynamic Programing");
@@ -48,5 +50,26 @@ Console.WriteLine("Dynamic Programing");
 //    Console.WriteLine(string.Join(",", way));
 //}
 
-FurthestBuildingTravel furthestBuildingTravel = new FurthestBuildingTravel();
-Console.WriteLine(furthestBuildingTravel.find(new int[] { 4, 12, 2, 7, 3, 18, 20, 3, 19 }, 10, 2));
+//FurthestBuildingTravel furthestBuildingTravel = new FurthestBuildingTravel();
+//Console.WriteLine(furthestBuildingTravel.find(new int[] { 4, 12, 2, 7, 3, 18, 20, 3, 19 }, 10, 2));
+
+//SubSetSum subSetSum = new SubSetSum();
+//Console.WriteLine(subSetSum.find_recurssion(new int[] { 2, 3, 7, 8, 10 }, 11));
+//Console.WriteLine(subSetSum.find_recurssion_memo(new int[] { 2, 3, 7, 8, 10 }, 11, new Dictionary<string, bool>()));
+//Console.WriteLine(subSetSum.find_Tabulation(new int[] { 2, 3, 7, 8, 10 }, 11));
+
+//PartitionEqualSubSetSum partitionEqualSubSetSum = new PartitionEqualSubSetSum();
+//Console.WriteLine(partitionEqualSubSetSum.CanPartition(new int[] { 1, 2, 3, 5 }));
+//Console.WriteLine(partitionEqualSubSetSum.CanPartition(new int[] { 1,5,11,5 }));
+
+//SubsetSumCountToTargetSum subsetSumCountToTargetSum = new SubsetSumCountToTargetSum();
+//Console.WriteLine(subsetSumCountToTargetSum.Count(new int[] { 2, 3, 5, 6, 8, 10 }, 10));
+//Console.WriteLine(subsetSumCountToTargetSum.Count_tabulation(new int[] { 2, 3, 5, 6, 8, 10 }, 10));
+
+MaxProfit maxProfit = new MaxProfit();
+Console.WriteLine(maxProfit.find(new int[] { 1, 6, 10, 16 }, new int[] { 1, 2, 3, 5 }, 7));
+Console.WriteLine(maxProfit.find_memo(new int[] { 1, 6, 10, 16 }, new int[] { 1, 2, 3, 5 }, 7, new Dictionary<string,int>()));
+Console.WriteLine(maxProfit.find_BottomUP(new int[] { 1, 6, 10, 16 }, new int[] { 1, 2, 3, 5 }, 7));
+Console.WriteLine(maxProfit.find_BottomUP_Space_C(new int[] { 1, 6, 10, 16 }, new int[] { 1, 2, 3, 5 }, 7));
+Console.WriteLine(maxProfit.find_BottomUP_Space_C_Reverse(new int[] { 1, 6, 10, 16 }, new int[] { 1, 2, 3, 5 }, 7));
+
