@@ -35,9 +35,9 @@ public void findTriplet(int[] nums)
     Array.Sort(nums);
     for(int i = 0;i<nums.Length-1&&nums[i]<=0;i++)
     {
-        if(i==0 || nums[i]!=nums[i+1])
+        if(i==0 || nums[i]!=nums[i-1])
         {
-            List<int[]>items =  find(nums, i, nums.Length-1, -nums[i]); //nums, 1,2,0
+            List<int[]>items =  find(nums, i+1, nums.Length-1, -nums[i]); //nums, 1,2,0
             foreach(int[] item in items)
             {
                     result.Add (new int[]{nums[i],item[0],item[1]});

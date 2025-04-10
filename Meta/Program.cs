@@ -23,5 +23,10 @@ using Meta.Trees.PracticeDFS;
 // RemoveInnvalidParanthesis removeInnvalid = new RemoveInnvalidParanthesis();
 // Console.WriteLine(string.Join(",", removeInnvalid.solve("()())()")));
 
-threeSum threeSum = new threeSum();
-threeSum.findTriplet([-1,0,1,2,-1,-4]);
+// threeSum threeSum = new threeSum();
+// threeSum.findTriplet([-1,0,1,2,-1,-4]);
+
+// ThreeSumWithHashSet threeSumWithHashSet = new ThreeSumWithHashSet();
+// threeSumWithHashSet.solve([-1,0,1,2,-1,-4]);
+ThreeSumNoSortHashSet threeSumNoSortHashSet = new ThreeSumNoSortHashSet();
+threeSumNoSortHashSet.solve([-1,0,1,2,-1,-4]);
