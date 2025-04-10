@@ -41,17 +41,13 @@ public class ConnectedComponentCount
             {
                 adj[pair[0]] = new List<int>();
             }
-
-            if (pair.Length > 1)
+            if (!adj.ContainsKey(pair[1]))
             {
-                if (!adj.ContainsKey(pair[1]))
-                {
-                    adj[pair[1]] = new List<int>();
-                }
-
-                adj[pair[0]].Add(pair[1]);
-                adj[pair[1]].Add(pair[0]);
+                adj[pair[1]] = new List<int>();
             }
+        
+            adj[pair[0]].Add(pair[1]);
+            adj[pair[1]].Add(pair[0]);
         }
 
         return adj;
