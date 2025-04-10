@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Google50", "Google50\Google
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP", "DP\DP.csproj", "{40510E25-E572-4B6A-A6D4-3D01FDABCD29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopologicalSort", "TopologicalSort\TopologicalSort.csproj", "{BF472551-C6DB-47B9-82A3-F0F52137A540}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{40510E25-E572-4B6A-A6D4-3D01FDABCD29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40510E25-E572-4B6A-A6D4-3D01FDABCD29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40510E25-E572-4B6A-A6D4-3D01FDABCD29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF472551-C6DB-47B9-82A3-F0F52137A540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF472551-C6DB-47B9-82A3-F0F52137A540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF472551-C6DB-47B9-82A3-F0F52137A540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF472551-C6DB-47B9-82A3-F0F52137A540}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
