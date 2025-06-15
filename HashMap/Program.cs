@@ -3,5 +3,9 @@
 using HashMap;
 
 Console.WriteLine("Hash Map");
-LongestPalindrome longestPalindrome = new LongestPalindrome();
-Console.WriteLine(longestPalindrome.find("applepie"));
+//LongestPalindrome longestPalindrome = new LongestPalindrome();
+//Console.WriteLine(longestPalindrome.find("applepie"));
+
+Console.WriteLine("Group Anagrams");
+GroupAnagrams groupAnagrams = new GroupAnagrams();
+groupAnagrams.Solve(new List<string>() { "eat", "tea", "tan", "ate", "nat", "bat" });

@@ -147,7 +147,6 @@ Global
 		{559167D5-A973-444C-8F14-DC254D77BDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{559167D5-A973-444C-8F14-DC254D77BDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{559167D5-A973-444C-8F14-DC254D77BDBC}.Release|Any CPU.Build.0 = Release|Any CPU
-
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
